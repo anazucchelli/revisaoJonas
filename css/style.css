@@ -1,0 +1,55 @@
+/* tudo (*) */
+body{
+    margin: 0;
+}
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif, 'Times New Roman', Times, serif;
+}
+/* -------------------- Inicio Header ------------------- */
+header{
+    margin: 20px;
+    /*  */
+    display: flex; 
+    /* coloca em direção de linha */
+    flex-direction: row;
+    /*usa as  */
+    justify-content: space-around;
+    /* centralizado */
+    align-items: center;
+}
+
+.search input{
+    height: 25px;
+    padding-left: 5px;
+}
+
+.search button{
+    background-color: darkred;
+    color: white;
+    border: none;
+    height: 31px;
+    /* Da impressão de link */
+    cursor: pointer;
+}
+
+.search button:hover{
+    background-color: teal;
+    opacity: 0.7;
+}
+.login a{
+    color: slategrey;
+    text-decoration: none;
+
+}
+.login a::before{
+    content: "";
+    background-image: url('../images/header/penson2.png');
+    height: 24px;
+    width: 24px;
+    position: absolute;
+    margin-left: -24px;
+    margin-top: -4px;
+    background-size: 24px;
+
+}
+/* ---- End Header ----- */
